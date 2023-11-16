@@ -1,0 +1,29 @@
+Note: To stop the execution of the functions, close the taskbar. Closing the images themselves will have no effect.
+
+Problem 1 - input "python ImageProcessing.py problem1 input1.jpg" in terminal
+• Mode (0-1) sets either light leak (0) or rainbow light leak (1). 
+• Image_wht (0-100 percent) controls the strength of the image.
+• Mask_wht (0-100 percent) controls the strength of the mask.
+• Blend_wht (0-200) controls the size of the gaussian kernel and hence the strength of the blurring of the mask. 
+• Clr_shift (0-360) cycles through all values of the hue.
+• Clr_step (0-20) controls the number of rainbows. 
+
+Problem 2 - input "python ImageProcessing.py problem2 input1.jpg" in terminal
+• Mode (0-1) sets either grey pencil (0) or colour pencil (1). 
+• Noise_wht (0-100) controls the strength of the noise. 
+• Blur_size (0-50) controls the size of the motion blur kernel and hence the strength motion blur effect on the noise image. 
+• Colour (0-2) sets 3 colours by applying the noise images to all pairs of colour channels.
+
+Problem 3 - input "python ImageProcessing.py problem3 input1.jpg" in terminal
+• Mode (0-2) sets either histogram interpolation (0), warmth colour curve (1), or custom contrast enhancement (2). 
+• Krnl_size (0-200) controls the size of the gaussian kernel
+• Sigma (0-100) controls the standard deviation of the gaussian function. 
+• Fltr_wht (0-100) controls the strength of the filter (for mode 1 and 2 only) with the centre at 50.
+
+Problem 4 - input "python ImageProcessing.py problem4 input1.jpg" in terminal
+• Interplatn (0-1) sets either nearest neighbour interpolation (0) or bilinear interpolation (1). 
+• Low_pass (0-2) is either off (0), uses a circular filter (1), or a gaussian filter (2). 
+• Inverse is either off (0) or on (1). It produces two more images: the inverse on the result image and the difference between it and the input image. 
+• Swirl_rdus (0-200) controls the radius of the swirl transform.
+• Swrl_angle (0-200) controls the strength of the swirl with the centre at 100. 
+• Fltr_rdus (0-200) controls the size of the low pass filter. 
